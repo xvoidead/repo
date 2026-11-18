@@ -1,0 +1,16 @@
+Package: com.yourname.ipaddock
+Name: iPadDock
+Depends: mobilesubstrate (>= 0.9.5000), ellekit
+Description: Полноценный плавающий iPad Dock на iPhone с поддержкой недавних приложений и жеста вызова.
+Maintainer: YourName
+Author: YourName
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 184
+Filename: debs/com.yourname.ipaddock_1.0.0_iphoneos-arm64.deb
+Size: 3290
+MD5sum: 530b1b87e66148670aab43006b9785ac
+SHA1: bb6cef8a2e81fe8295fdc45221c1e1d595027c0d
+SHA256: ffc715d641954099f07b580e8bbf64ca89a3a2e8867abd2ea0410047b3cbd6bb
+

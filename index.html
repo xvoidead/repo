@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xvoide Repo — Твики для Sileo</title>
+    <style>
+        :root {
+            --bg-color: #0b0e14;
+            --card-bg: #151922;
+            --accent-color: #0071e3;
+            --accent-hover: #0077ed;
+            --sileo-color: #2ab5ff;
+            --text-main: #f5f5f7;
+            --text-sub: #86868b;
+            --border-color: rgba(255, 255, 255, 0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 40px 16px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 580px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #fff 40%, #86868b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header p {
+            color: var(--text-sub);
+            font-size: 1rem;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 36px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            flex: 1;
+            min-width: 140px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 20px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 14px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+        }
+
+        .btn-sileo {
+            background: linear-gradient(135deg, #2a94f4, #1a74d2);
+            color: #fff;
+        }
+
+        .btn-sileo:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #1e2430;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 14px;
+            color: var(--text-sub);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        .tweak-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            padding: 18px 20px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .tweak-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #5856d6, #af52de);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+
+        .tweak-info {
+            flex-grow: 1;
+        }
+
+        .tweak-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .tweak-desc {
+            font-size: 0.88rem;
+            color: var(--text-sub);
+            line-height: 1.35;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 3px 8px;
+            border-radius: 6px;
+            margin-left: 8px;
+            font-weight: 500;
+        }
+
+        .instructions {
+            margin-top: 36px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.02);
+            border: 1px dashed var(--border-color);
+            border-radius: 16px;
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            line-height: 1.6;
+        }
+
+        .instructions code {
+            background-color: rgba(255, 255, 255, 0.08);
+            padding: 2px 6px;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>xvoide's Repo</h1>
+            <p>Персональный репозиторий твиков для Dopamine (Rootless)</p>
+        </header>
+
+        <div class="buttons">
+            <a id="sileoBtn" href="#" class="btn btn-sileo">⚡ Добавить в Sileo</a>
+            <a id="zebraBtn" href="#" class="btn btn-secondary">🦓 Добавить в Zebra</a>
+        </div>
+
+        <div class="section-title">Доступные твики</div>
+
+        <div class="tweak-card">
+            <div class="tweak-icon">📱</div>
+            <div class="tweak-info">
+                <div class="tweak-title">iPadDock <span class="badge">v1.0.0</span></div>
+                <div class="tweak-desc">Плавающий iPadOS Dock на iPhone с разделом недавних приложений и жестом вызова в любых программах.</div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <strong>Как добавить вручную в Sileo:</strong><br>
+            1. В Sileo перейдите на вкладку <code>Источники</code> (Sources).<br>
+            2. Нажмите <code>+</code> в правом верхнем углу.<br>
+            3. Вставьте URL этого репозитория и нажмите <code>Добавить</code>.
+        </div>
+    </div>
+
+    <script>
+        // Автоматически подставляет текущий URL репозитория в кнопки Sileo и Zebra
+        const repoUrl = window.location.href.split('#')[0].split('?')[0];
+        document.getElementById('sileoBtn').href = 'sileo://source/' + encodeURIComponent(repoUrl);
+        document.getElementById('zebraBtn').href = 'zbra://sources/add/' + encodeURIComponent(repoUrl);
+    </script>
+</body>
+</html>

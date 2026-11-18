@@ -1,0 +1,20 @@
+Origin: xvoide's Repo
+Label: xvoide's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: Личный репозиторий твиков для Dopamine и Sileo
+MD5Sum:
+ 7ec83a1e84ffa2e1739a0a5207a6696b 614 Packages
+ dd5dcbc18fe29aae304a8c579a086933 516 Packages.xz
+ 93e895496b4f4db62ce7d8b1f54e5f3d 482 Packages.bz2
+SHA1:
+ a5a26bdcf19661a918ab0e041e49f9407895e391 614 Packages
+ e443abc7202c86f21ed25d8bc130190d45f18796 516 Packages.xz
+ 74b8b05e6d000c38c1d64e5a89cd90bde7572d28 482 Packages.bz2
+SHA256:
+ 677e092199cb651be54a09489a183668f2bf1f59c224b64a0bba5ce257497642 614 Packages
+ ea6a2b425c654b63d1acbdf85a35040a6f20a7b97eaa2c94127c9940209d4a98 516 Packages.xz
+ 5317a144c7508faa76743e052e53154096dae92a92994a1164dcc175c5c4ebb5 482 Packages.bz2
