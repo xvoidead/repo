@@ -1,18 +1,18 @@
 Package: com.xvoide.motionpaper
 Name: MotionPaper
 Depends: mobilesubstrate (>= 0.9.5000), ellekit, preferenceloader
-Description: Видео и фото обои для экрана блокировки и рабочего стола с выбором из галереи/файлов и умной экономией батареи.
+Description: Видео и фото обои для экрана блокировки и рабочего стола через нативный SBFWallpaperView (без Safe Mode). Выбор из галереи и файлов.
 Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.1.0
-Installed-Size: 376
-Filename: debs/com.xvoide.motionpaper_1.1.0_iphoneos-arm64.deb
-Size: 18710
-MD5sum: 90445ed51ac00231626f50126878c876
-SHA1: 1cf05e45ed82c1b540d8c396ebc48eea488e4610
-SHA256: 6894a3d3c4dcd6d2076d094833122455203bf4c21aa4f9e5d8fbb3bb90697364
+Version: 1.2.0
+Installed-Size: 380
+Filename: debs/com.xvoide.motionpaper_1.2.0_iphoneos-arm64.deb
+Size: 19588
+MD5sum: 482c46863202af0b756f41117dbd782d
+SHA1: 2d7550c5f765177104108154558a665f540e6036
+SHA256: 89dad067dd5c8afa1424b47ed5d6650b55a367c41d843d4b921937d35b024068
 
 Package: com.yourname.ipaddock
 Name: iPadDock
