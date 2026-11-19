@@ -17,18 +17,18 @@ SHA256: 2fc1f49947a59c6bf6645043fd47b790a87edb21fcbb0f187421dea995786678
 Package: com.xvoide.fluidse
 Name: FluidSE
 Depends: mobilesubstrate (>= 0.9.5000), ellekit
-Description: Современные полноэкранные жесты смахивания (Swipe to Home) и кнопки Фонарика/Камеры на экране блокировки для iPhone SE.
+Description: Полноэкранные жесты iPhone X+ (смахивание вверх) и кнопки быстрого доступа на экране блокировки без красной ошибки rdar.
 Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.1.0
 Installed-Size: 184
-Filename: debs/com.xvoide.fluidse_1.0.0_iphoneos-arm64.deb
-Size: 3114
-MD5sum: f21ea011bad71d0b4c0808d8dda70ec5
-SHA1: f8ad2abfbbedb9cee26bc3a1ba6df4bcbc814056
-SHA256: 7754490149563ba5d65f0df1083a8ec58038fe435e36234218fefa9bb44e1027
+Filename: debs/com.xvoide.fluidse_1.1.0_iphoneos-arm64.deb
+Size: 4932
+MD5sum: 4a2ffeac958d00d11877a8df32cba6a6
+SHA1: b65e1842f64c1290c63bc6a41c24b99034def505
+SHA256: f34fbfe97dd0b7f5e0b4ad868271ce153131c2d1ae5514225b3a5ab6f012bfc9
 
 Package: com.xvoide.hapticpulse
 Name: HapticPulse
@@ -49,18 +49,18 @@ SHA256: 3ac3bcbffc876988a6643f6931d93658dd6f6a6c2616977c8575f129e27aa712
 Package: com.xvoide.motionpaper
 Name: MotionPaper
 Depends: mobilesubstrate (>= 0.9.5000), ellekit, preferenceloader
-Description: Видео и фото обои для экрана блокировки и домашнего экрана. Поддержка MP4, MOV, PNG, HEIC. Выбор через приложение Файлы.
+Description: Видео и фото обои для экрана блокировки и рабочего стола. Чистый нативный рендеринг через PaperBoardUI без Safe Mode.
 Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.3.0
+Version: 1.3.1
 Installed-Size: 380
-Filename: debs/com.xvoide.motionpaper_1.3.0_iphoneos-arm64.deb
-Size: 19552
-MD5sum: 76eb41ca2c5b181ea6baf1e5e7bdfcb7
-SHA1: 2959def96a02295a44bafd2bda094f91f1352457
-SHA256: 85bd4ab04fbab35f0449ddc43fcffba3ac476651dc4da01190a2157880be3b4f
+Filename: debs/com.xvoide.motionpaper_1.3.1_iphoneos-arm64.deb
+Size: 19510
+MD5sum: 248bd315cfdc3da4489fc9eca2734b67
+SHA1: 9cdc4807ec3ecabbe2a86ab6ba8ff502362ee867
+SHA256: 3a435b35e4234889b5dae8de31868ad46b471983bd76b6071b99926295459d37
 
 Package: com.xvoide.taptosleep
 Name: TapToSleep
