@@ -17,18 +17,18 @@ SHA256: 2fc1f49947a59c6bf6645043fd47b790a87edb21fcbb0f187421dea995786678
 Package: com.xvoide.fluidse
 Name: FluidSE
 Depends: mobilesubstrate (>= 0.9.5000), ellekit
-Description: Полноэкранные жесты iPhone X+ (смахивание вверх) и кнопки быстрого доступа на экране блокировки без красной ошибки rdar.
+Description: Полноэкранные жесты iPhone X+ (смахивание вверх) и родной полноценный статус-бар для экрана iPhone SE (без выреза и без rdar).
 Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.2.0
+Version: 1.2.1
 Installed-Size: 184
-Filename: debs/com.xvoide.fluidse_1.2.0_iphoneos-arm64.deb
-Size: 5830
-MD5sum: 04d17060bf7b4ef9b0ca4d45109a42b9
-SHA1: 3a3639d32f9e61f1d4af042db07fd41d93296569
-SHA256: 63876f154f304360d02ce123863477cbcc3a14ce500927f09b90008df1901ab7
+Filename: debs/com.xvoide.fluidse_1.2.1_iphoneos-arm64.deb
+Size: 4396
+MD5sum: aad11517c542a59ea9d517f52c17216b
+SHA1: 675ab326737c9a900a9f0cb6a1619f04e40aa97f
+SHA256: caa1cce6f318d2970c8a50ade13d42f3e2906a12db2aa10343448b6d8929fb1e
 
 Package: com.xvoide.hapticpulse
 Name: HapticPulse
