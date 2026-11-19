@@ -22,13 +22,13 @@ Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.1.0
+Version: 1.1.1
 Installed-Size: 184
-Filename: debs/com.xvoide.fluidse_1.1.0_iphoneos-arm64.deb
-Size: 4932
-MD5sum: 4a2ffeac958d00d11877a8df32cba6a6
-SHA1: b65e1842f64c1290c63bc6a41c24b99034def505
-SHA256: f34fbfe97dd0b7f5e0b4ad868271ce153131c2d1ae5514225b3a5ab6f012bfc9
+Filename: debs/com.xvoide.fluidse_1.1.1_iphoneos-arm64.deb
+Size: 5112
+MD5sum: d3dbad43ab970616aaeb4fb044549599
+SHA1: e127a367e7c1db201ff8e46d3ee1bcf242bed9d4
+SHA256: 3ec19e7dc9f325bdba9f5a56b08e592f5c4c0a3ead1fca54bab244bf46b38b5d
 
 Package: com.xvoide.hapticpulse
 Name: HapticPulse
@@ -49,18 +49,18 @@ SHA256: 3ac3bcbffc876988a6643f6931d93658dd6f6a6c2616977c8575f129e27aa712
 Package: com.xvoide.motionpaper
 Name: MotionPaper
 Depends: mobilesubstrate (>= 0.9.5000), ellekit, preferenceloader
-Description: Видео и фото обои для экрана блокировки и рабочего стола. Чистый нативный рендеринг через PaperBoardUI без Safe Mode.
+Description: Видео и фото обои для экрана блокировки и рабочего стола. Защищенный рендеринг с перехватом исключений, 100% без Safe Mode.
 Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.3.1
+Version: 1.3.2
 Installed-Size: 380
-Filename: debs/com.xvoide.motionpaper_1.3.1_iphoneos-arm64.deb
-Size: 19510
-MD5sum: 248bd315cfdc3da4489fc9eca2734b67
-SHA1: 9cdc4807ec3ecabbe2a86ab6ba8ff502362ee867
-SHA256: 3a435b35e4234889b5dae8de31868ad46b471983bd76b6071b99926295459d37
+Filename: debs/com.xvoide.motionpaper_1.3.2_iphoneos-arm64.deb
+Size: 20164
+MD5sum: 4e6ecaedef2f662eae9fdfdffc206427
+SHA1: d88c09069af45d1cb2e321a4de4b330e37e00b1b
+SHA256: 4d9cc2864af1a963a2c5adf3b264767ceac59357224b78ee7206b44f04a8436e
 
 Package: com.xvoide.taptosleep
 Name: TapToSleep

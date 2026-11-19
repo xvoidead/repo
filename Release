@@ -7,14 +7,14 @@ Architectures: iphoneos-arm64
 Components: main
 Description: Личный репозиторий твиков для Dopamine и Sileo
 MD5Sum:
- ab8a9201f099393c357acb7761332e28 3905 Packages
- e980eafb0a8cef3ca127d522bce308fa 1580 Packages.xz
- a0e2a77dcf711334a9cecd7f19a55bc3 1629 Packages.bz2
+ 3e7fce889808125887520142c0377a95 3923 Packages
+ 4dc9d1377568574edd6a7ea701f32c06 1592 Packages.xz
+ 73103866b1ddf8988e3bcdb5424a334b 1643 Packages.bz2
 SHA1:
- ea6ca00a59bcda2d66f0cc03c4ba29c622d5d4e4 3905 Packages
- c289a89f2720a3d7a9b5dcf909f6e01e5bf6f3a4 1580 Packages.xz
- c84fbb69046ea377797401e5217dcaeb90262c5f 1629 Packages.bz2
+ b570633427f8a524f608cd74336be7393e2569c7 3923 Packages
+ 85ae148253fe970da5c1eec60e892c9a9e00c180 1592 Packages.xz
+ 07e0cc88cf87ba4eb90f92ead8d1fe9caa003e48 1643 Packages.bz2
 SHA256:
- 3ead7be37567e8ca733cd547e102f3dab9c611208f0888947f63aa7cf4bbfbaf 3905 Packages
- 5a6afbabdeb2a2410c3973510227920daf0b1b2fb355699b3ab4c31d3e68629f 1580 Packages.xz
- 4a8bb9d5dc545df5e1f733d15d3caca6d3706bfb8a57e5c266dc80b5d4d9b363 1629 Packages.bz2
+ a350f0511ee6740e0dd0a3ed93dd2d15779e192b3af47646160d5b2e08c61c10 3923 Packages
+ e647dd78b3bb66f580f3189fabf4ecab66ccfc4217dd022a16f6384f161b1c55 1592 Packages.xz
+ 7884aaf10c0f3cbf559d5d018b7ca95414b2e5cd3252a32be0f929b792120e8d 1643 Packages.bz2
