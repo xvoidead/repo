@@ -1,18 +1,82 @@
-Package: com.xvoide.motionpaper
-Name: MotionPaper
-Depends: mobilesubstrate (>= 0.9.5000), ellekit, preferenceloader
-Description: Видео и фото обои для экрана блокировки и рабочего стола через нативный SBFWallpaperView с надежным сохранением медиа.
+Package: com.xvoide.compactse
+Name: CompactSE
+Depends: mobilesubstrate (>= 0.9.5000), ellekit
+Description: Оптимизация экрана 4.7" для iPhone SE: скрытие подписей иконок, скрытие точек страниц, секунды в строке состояния и 5 иконок в Dock.
 Maintainer: xvoide
 Author: xvoide
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.2.1
+Version: 1.0.0
+Installed-Size: 184
+Filename: debs/com.xvoide.compactse_1.0.0_iphoneos-arm64.deb
+Size: 4444
+MD5sum: 746e05be068d249d312a7c75fd6e70f8
+SHA1: fca58a43d11a758ee834e8e8cf8c14a07a6fc713
+SHA256: 2fc1f49947a59c6bf6645043fd47b790a87edb21fcbb0f187421dea995786678
+
+Package: com.xvoide.fluidse
+Name: FluidSE
+Depends: mobilesubstrate (>= 0.9.5000), ellekit
+Description: Современные полноэкранные жесты смахивания (Swipe to Home) и кнопки Фонарика/Камеры на экране блокировки для iPhone SE.
+Maintainer: xvoide
+Author: xvoide
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 184
+Filename: debs/com.xvoide.fluidse_1.0.0_iphoneos-arm64.deb
+Size: 3114
+MD5sum: f21ea011bad71d0b4c0808d8dda70ec5
+SHA1: f8ad2abfbbedb9cee26bc3a1ba6df4bcbc814056
+SHA256: 7754490149563ba5d65f0df1083a8ec58038fe435e36234218fefa9bb44e1027
+
+Package: com.xvoide.hapticpulse
+Name: HapticPulse
+Depends: mobilesubstrate (>= 0.9.5000), ellekit
+Description: Сочный тактильный виброотклик (Taptic Engine) при разблокировке Touch ID, регулировке громкости и скролле App Switcher.
+Maintainer: xvoide
+Author: xvoide
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 184
+Filename: debs/com.xvoide.hapticpulse_1.0.0_iphoneos-arm64.deb
+Size: 4098
+MD5sum: 1d59cede082936ade6a9067683eb220a
+SHA1: 1a62c94fd9a86bc2f13299d7e38068385bd2fcd8
+SHA256: 3ac3bcbffc876988a6643f6931d93658dd6f6a6c2616977c8575f129e27aa712
+
+Package: com.xvoide.motionpaper
+Name: MotionPaper
+Depends: mobilesubstrate (>= 0.9.5000), ellekit, preferenceloader
+Description: Видео и фото обои для экрана блокировки и домашнего экрана. Поддержка MP4, MOV, PNG, HEIC. Выбор через приложение Файлы.
+Maintainer: xvoide
+Author: xvoide
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3.0
 Installed-Size: 380
-Filename: debs/com.xvoide.motionpaper_1.2.1_iphoneos-arm64.deb
-Size: 20434
-MD5sum: f94bda920b6d1a710a4b3a756300a126
-SHA1: dc97d10f7bbaa95224ca81a6d8ac4a73b240fb5b
-SHA256: 1ed9ac7d98ad5f2413019b3eea6f0d040fa2baf2e00eb0be4bda9607483d2f3c
+Filename: debs/com.xvoide.motionpaper_1.3.0_iphoneos-arm64.deb
+Size: 19552
+MD5sum: 76eb41ca2c5b181ea6baf1e5e7bdfcb7
+SHA1: 2959def96a02295a44bafd2bda094f91f1352457
+SHA256: 85bd4ab04fbab35f0449ddc43fcffba3ac476651dc4da01190a2157880be3b4f
+
+Package: com.xvoide.taptosleep
+Name: TapToSleep
+Depends: mobilesubstrate (>= 0.9.5000), ellekit
+Description: Мгновенная блокировка экрана двойным тапом по рабочему столу или строке состояния (Status Bar).
+Maintainer: xvoide
+Author: xvoide
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 184
+Filename: debs/com.xvoide.taptosleep_1.0.0_iphoneos-arm64.deb
+Size: 4366
+MD5sum: d08c524fbb50e4a26cb0c921e1e7587f
+SHA1: 9af8febad7c56d641085f6282c9e2eb7ba9040ea
+SHA256: b1f47c37a4b532dfcb14ec5a2515d3edac4ab4eca9b6cce7ee75994f5d90cc4e
 
 Package: com.yourname.ipaddock
 Name: iPadDock

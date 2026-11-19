@@ -116,6 +116,12 @@
             display: flex;
             align-items: center;
             gap: 16px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .tweak-card:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
         }
 
         .tweak-icon {
@@ -157,6 +163,11 @@
             font-weight: 500;
         }
 
+        .badge-green {
+            background: rgba(52, 199, 89, 0.2);
+            color: #34c759;
+        }
+
         .instructions {
             margin-top: 36px;
             padding: 20px;
@@ -181,7 +192,7 @@
     <div class="container">
         <header class="header">
             <h1>xvoide's Repo</h1>
-            <p>Персональный репозиторий твиков для Dopamine (Rootless)</p>
+            <p>Персональный репозиторий твиков для Dopamine (iOS 18 / Rootless)</p>
         </header>
 
         <div class="buttons">
@@ -189,18 +200,56 @@
             <a id="zebraBtn" href="#" class="btn btn-secondary">🦓 Добавить в Zebra</a>
         </div>
 
-        <div class="section-title">Доступные твики</div>
+        <div class="section-title">Доступные твики (6)</div>
 
+        <!-- MotionPaper -->
         <div class="tweak-card">
-            <div class="tweak-icon">🎬</div>
+            <div class="tweak-icon" style="background: linear-gradient(135deg, #ff2d55, #ff375f);">🎬</div>
             <div class="tweak-info">
-                <div class="tweak-title">MotionPaper <span class="badge">v1.2.1</span></div>
-                <div class="tweak-desc">Видео и фото обои через нативный SBFWallpaperView (без Safe Mode). Надежное сохранение видео через Настройки или вручную.</div>
+                <div class="tweak-title">MotionPaper <span class="badge badge-green">v1.3.0</span></div>
+                <div class="tweak-desc">Видео и фото обои (MP4, MOV, PNG, HEIC) для экрана блокировки и рабочего стола. Стабильный выбор файлов без крашей настроек и адаптация под iOS 18.</div>
             </div>
         </div>
 
+        <!-- FluidSE -->
         <div class="tweak-card">
-            <div class="tweak-icon">📱</div>
+            <div class="tweak-icon" style="background: linear-gradient(135deg, #007aff, #5856d6);">⚡</div>
+            <div class="tweak-info">
+                <div class="tweak-title">FluidSE <span class="badge">v1.0.0</span></div>
+                <div class="tweak-desc">Полноэкранные жесты iPhone X+ (смахивание вверх вместо кнопки Home) и кнопки Фонарика/Камеры на экране блокировки для iPhone SE.</div>
+            </div>
+        </div>
+
+        <!-- TapToSleep -->
+        <div class="tweak-card">
+            <div class="tweak-icon" style="background: linear-gradient(135deg, #5856d6, #3634a3);">😴</div>
+            <div class="tweak-info">
+                <div class="tweak-title">TapToSleep <span class="badge">v1.0.0</span></div>
+                <div class="tweak-desc">Мгновенная блокировка экрана двойным тапом по пустому месту рабочего стола или строке состояния (Status Bar) из любых приложений.</div>
+            </div>
+        </div>
+
+        <!-- HapticPulse -->
+        <div class="tweak-card">
+            <div class="tweak-icon" style="background: linear-gradient(135deg, #ff9500, #ff5e3a);">📳</div>
+            <div class="tweak-info">
+                <div class="tweak-title">HapticPulse <span class="badge">v1.0.0</span></div>
+                <div class="tweak-desc">Приятный тактильный отклик Taptic Engine при разблокировке Touch ID, нажатии кнопок громкости и перелистывании карточек в App Switcher.</div>
+            </div>
+        </div>
+
+        <!-- CompactSE -->
+        <div class="tweak-card">
+            <div class="tweak-icon" style="background: linear-gradient(135deg, #30d158, #34c759);">🎯</div>
+            <div class="tweak-info">
+                <div class="tweak-title">CompactSE <span class="badge">v1.0.0</span></div>
+                <div class="tweak-desc">Оптимизация экрана 4.7" для iPhone SE: скрытие названий иконок, точек страниц, секунды в часах строки состояния и 5 иконок в Dock.</div>
+            </div>
+        </div>
+
+        <!-- iPadDock -->
+        <div class="tweak-card">
+            <div class="tweak-icon" style="background: linear-gradient(135deg, #af52de, #5856d6);">📱</div>
             <div class="tweak-info">
                 <div class="tweak-title">iPadDock <span class="badge">v1.0.0</span></div>
                 <div class="tweak-desc">Плавающий iPadOS Dock на iPhone с разделом недавних приложений и жестом вызова в любых программах.</div>
@@ -208,15 +257,15 @@
         </div>
 
         <div class="instructions">
-            <strong>Как добавить вручную в Sileo:</strong><br>
+            <strong>Как добавить репозиторий в Sileo:</strong><br>
             1. В Sileo перейдите на вкладку <code>Источники</code> (Sources).<br>
             2. Нажмите <code>+</code> в правом верхнем углу.<br>
-            3. Вставьте URL этого репозитория и нажмите <code>Добавить</code>.
+            3. Вставьте URL этого репозитория и нажмите <code>Добавить</code>.<br>
+            4. Обновите источники (потянув список вниз).
         </div>
     </div>
 
     <script>
-        // Автоматически подставляет текущий URL репозитория в кнопки Sileo и Zebra
         const repoUrl = window.location.href.split('#')[0].split('?')[0];
         document.getElementById('sileoBtn').href = 'sileo://source/' + encodeURIComponent(repoUrl);
         document.getElementById('zebraBtn').href = 'zbra://sources/add/' + encodeURIComponent(repoUrl);
